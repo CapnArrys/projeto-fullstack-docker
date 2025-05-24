@@ -3,7 +3,7 @@ Projeto com Frontend, Backend e Banco de dados PostgreSQL integrados em Docker.
 # Instalação e Execução
 
 ## 1. Certifique-se que o git está instalado
-     - Abra o terminal e digite `git --version`
+- Abra o terminal e digite `git --version`
    se já estiver instalado, siga para o próximo passo, caso não:
   ## Windows
   você pode baixar e instalar o git [Aqui](https://git-scm.com/downloads/win)
@@ -17,8 +17,6 @@ Projeto com Frontend, Backend e Banco de dados PostgreSQL integrados em Docker.
   Arch
   `sudo pacman -S git`
 
-## MacOS
-Em versões 10.9 ou maiores, digite `git --version` e se não tiver instalado, irá aparecer um prompt para instalação
 
 2. Certifique também que o docker esteja instalado
      - Abra o terminal e digite `docker --version`
