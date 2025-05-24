@@ -1,0 +1,77 @@
+{
+    "fornecedores": [
+      {
+        "id": 1,
+        "nome": "Urbano LTDA",
+        "cnpj": "43.517.339/0001-72",
+        "email": "sac@urbano.com.br"
+      },
+      {
+        "nome": "sefesefse",
+        "cnpj": "12.312.312/3123-42",
+        "email": "awdasdwadaw@gmail.com",
+        "id": 11
+      },
+      {
+        "nome": "mmmmmmmmm",
+        "cnpj": "87.573.452/3768-90",
+        "email": "mlk@gmail.com",
+        "id": 12
+      },
+      {
+        "nome": "hftjghhhbjbhj",
+        "cnpj": "98.765.456/7890-09",
+        "email": "8974567890@gmail.com",
+        "id": 13
+      },
+      {
+        "nome": "dorigj3849",
+        "cnpj": "12.489.329/6720-49",
+        "email": "awmidnwa@hotmail.com",
+        "id": 14
+      },
+      {
+        "nome": "awdawd",
+        "cnpj": "23.945.893/7459-23",
+        "email": "aom@hotmail.com",
+        "id": 15
+      },
+      {
+        "nome": "michael yakson",
+        "cnpj": "19.999.999/9999-99",
+        "email": "yakson@yahoo.com",
+        "id": 16
+      }
+    ],
+    "produtos": [
+      {
+        "nome": "iphone",
+        "preco": "70000",
+        "descricao": "iphone carissimo por algum motivo",
+        "quantidadeEstoque": "3",
+        "id": 1
+      },
+      {
+        "nome": "sas",
+        "preco": "32323",
+        "descricao": "dssddadas",
+        "quantidadeEstoque": "30",
+        "id": 2
+      }
+    ],
+    "clientes": [
+      {
+        "id": 2,
+        "nome": "Kelson",
+        "cpf": "123123",
+        "email": "zezin@gmail.com",
+        "cep": "58079000",
+        "rua": "Rua Josefa Miranda Freire",
+        "numero": "105",
+        "bairro": "Jardim Oceania",
+        "cidade": "João Pessoa",
+        "estado": "Paraíba",
+        "pais": "Brasil"
+      }
+    ]
+  }

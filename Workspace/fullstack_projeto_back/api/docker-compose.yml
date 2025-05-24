@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: gerenciador_de_produtos_db
+    environment:
+      POSTGRES_DB: gerenciador_de_produtos
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - gerenciador_network
+  
+  backend:
+    build: 
+      context: ./Workspace/Curso_fullstack_turma2_projeto_back/api
+    networks:
+      - gerenciador_network
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/gerenciador_de_produtos
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 123
+
+volumes:
+  postgres_data:
+
+networks:
+  gerenciador_network:
