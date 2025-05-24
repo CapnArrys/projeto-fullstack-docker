@@ -16,7 +16,7 @@ Projeto com Frontend, Backend e Banco de dados PostgreSQL integrados em Docker.
 
   Arch
    - ``sudo pacman -S git``
-
+---
 
 ## 2. Certifique também que o docker esteja instalado
    - Abra o terminal e digite `docker --version`
@@ -27,11 +27,16 @@ caso esteja no windows, Acesse o site do [Docker](https://www.docker.com/get-sta
 ## Linux/etc
 Acesse o site de [Documentação do docker](https://docs.docker.com/engine/install/) para instalar no seu sistema operacional respectivo
 
+---
+
 ## 3. Clone o Repositório
       git clone https://github.com/CapnArrys/projeto-fullstack-docker.git
 
+---
+
 ## 4. Entre na pasta do projeto
       cd projeto-fullstack-docker/
+---
 
 ## 5. Rode o projeto no Docker
       docker compose up --build
